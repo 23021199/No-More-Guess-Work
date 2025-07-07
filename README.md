@@ -44,6 +44,8 @@ This project leverages the following open datasets:
        doi = {10.3390/info14120633}
      }
      ```
+4. **[TrashBox](https://www.kaggle.com/datasets/asdasdasasdas/garbage-classification)**  
+   - 12-class garbage dataset with 15k+ images (glass, metal, etc.).  
 
 ## How It Works
 1. Users upload an image of waste or use the webcam.  

@@ -130,5 +130,12 @@
         <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
         <script src="predict.js"></script>
+        <script type="module">
+            import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+            Chatbot.init({
+                chatflowid: "91c0e654-063c-4db2-bf08-9dd2ef634ac7",
+                apiHost: "https://cloud.flowiseai.com",
+            })
+        </script>
     </body>
 </html>
